@@ -1,0 +1,9 @@
+{
+  "MillionairesMiningClubCoin": {
+    "address": "0x64FD32D0EDfa5DBc419BF2A2a4cbe2c374d24c67",
+    "decimals": 18
+  },
+  "MillionairesMiningClubNft": {
+    "address": "0xe81341FBC4bFAbd1521517C66A1762a8db5987D1"
+  }
+}

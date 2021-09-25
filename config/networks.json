@@ -1,0 +1,12 @@
+{
+  "1337": {
+    "name": "development",
+    "blockReward": "63411540900443870",
+    "openSeaUrl": "https://testnets.opensea.io/assets/mumbai/"
+  },
+  "80001": {
+    "name": "mumbai",
+    "blockReward": "63411540900443870",
+    "openSeaUrl": "https://testnets.opensea.io/assets/mumbai/"
+  }
+}

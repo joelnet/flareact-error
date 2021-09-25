@@ -1,0 +1,27 @@
+{
+  "name": "flareact-project",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A template for kickstarting a Flareact project",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "flareact dev",
+    "build": "flareact build",
+    "deploy:staging": "flareact publish --env staging",
+    "ngrok": "ngrok http --host-header=rewrite 8080",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "flareact": "^1.2.1",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-singleton-hook": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "prettier": "^2.3.2"
+  }
+}

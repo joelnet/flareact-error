@@ -1,0 +1,21 @@
+name = "cmc-web"
+type = "webpack"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+webpack_config = "node_modules/flareact/webpack"
+
+[site]
+bucket = "out"
+entry-point = "./"
+
+[env.staging]
+name = "mining-club-staging"
+vars = { ENVIRONMENT = "staging" }
+route = "staging.miningclub.app/*"
+
+[env.production]
+name = "mining-club"
+vars = { ENVIRONMENT = "production" }
+route = "miningclub.app/*"
